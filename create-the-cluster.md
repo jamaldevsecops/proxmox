@@ -2,7 +2,7 @@
 =================================================
 1. Create a new cluster via server1 (proxmox1.apsis.local)
 ```
-pvecm create ApsisCluster
+pvecm create ProxmoxCluster
 ```
 2. Join server2 in the cluster 
 ```
