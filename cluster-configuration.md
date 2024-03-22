@@ -8,7 +8,7 @@ dpkg-reconfigure locales
 
 2. Update /etc/hosts (on all servers). 
 ```
-vi /etc/hosts
+nano /etc/hosts
 ```
 ```
 192.168.10.101 proxmox1.apsis.local
@@ -23,7 +23,7 @@ Proxmox VE No-Subscription Repository:
 Source: https://pve.proxmox.com/wiki/Package_Repositories
 ```
 mv /etc/apt/sources.list /etc/apt/sources.list.default
-vi /etc/apt/sources.list
+nano /etc/apt/sources.list
 ```
 Past the following contents. 
 ```
