@@ -4,7 +4,7 @@
 ```
 pvecm create ProxmoxCluster
 ```
-2. Join server2 in the cluster 
+2. Join server2 and server3 in the cluster 
 ```
 pvecm add proxmox1.apsis.local (Cluster is created on the server1)
 ```
